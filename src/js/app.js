@@ -32,15 +32,16 @@ App = {
                // set the provider for our contract
                App.contracts.ZombieOwnership.setProvider(App.web3Provider);
                // retrieve zombies from the contract
-           
+               console.log(App.contracts.ZombieOwnership)
                //update account info
                App.displayAccountInfo();
+
+               // Listen to smart contract events
+               App.listenToEvents();
            
                // show zombies owned by current user
                return App.reloadZombies();
 
-               // Listen to smart contract events
-               App.listenToEvents();
           });
          
      },
@@ -79,7 +80,7 @@ App = {
           // define placeholder for contract instance
           // this is done because instance is needed multiple times
           var zombieOwnershipInstance;
-      
+          console.log(App.contracts.ZombieOwnership)
           App.contracts.ZombieOwnership.deployed().then(function (instance) {
                zombieOwnershipInstance = instance;
                // retrieve the zombies belonging to the current user
@@ -208,6 +209,9 @@ App = {
                    if (error) {
                         console.error(error);
                     }
+                     // reload the zombie list if event is triggered
+                     App.reloadZombies();
+               })
                //Question 3b: Answer - Added event (didn't app contract zombiehelper because zombieownership inherits from all other contracts)
                instance.NewLevel({}, {}).watch(function (error, event) {
                    // log error if one occurs
@@ -246,20 +250,21 @@ App = {
 $(function() {
      $(window).load(function() {
           App.init();
+
+          // placeholder for current account 
+          var _account;
+          // set the interval
+          setInterval(function () {
+          // check for new account information and display it
+          App.displayAccountInfo();
+          // check if current account is still the same, if not
+          if (_account != App.account) {
+                    // load the new zombie list
+                    App.reloadZombies();
+                    // update the current account
+                    _account = App.account;
+               }
+          }, 100);
      });
 });
 
-// placeholder for current account 
-var _account;
-// set the interval
-setInterval(function () {
-    // check for new account information and display it
-    App.displayAccountInfo();
-    // check if current account is still the same, if not
-    if (_account != App.account) {
-          // load the new zombie list
-          App.reloadZombies();
-          // update the current account
-          _account = App.account;
-     }
-}, 100);

@@ -68,15 +68,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_id\",\"type\":\"uint256\"}],\"name\":\"getKitty\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"isGestating\",\"type\":\"bool\"},{\"internalType\":\"bool\",\"name\":\"isReady\",\"type\":\"bool\"},{\"internalType\":\"uint256\",\"name\":\"cooldownIndex\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"nextActionAt\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"siringWithId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"birthTime\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"matronId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"sireId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"generation\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"genes\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/sophie/Zombies/contracts/ZombieFeeding.sol\":\"KittyInterface\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/sophie/Zombies/contracts/Ownable.sol\":{\"keccak256\":\"0x39a90b70f159756acf792133e7b951103c76d5bfedaffc1fa5f2e014db68218d\",\"urls\":[\"bzz-raw://584e7d8f0f0d03a66c380723df79e0fdbbe0490997667054e88da192c0404ec7\",\"dweb:/ipfs/QmTPFHgVbW59FTohcWpeRWnBKePjxckAUat3SuVHq1HgBF\"]},\"/Users/sophie/Zombies/contracts/SafeMath.sol\":{\"keccak256\":\"0x334515ddc84f63faa20ad836ab68073ca36fb66a0061cf0bbf4d3e7c47280f07\",\"urls\":[\"bzz-raw://3063d3d9c329734753324599d303b7cf9c754176a8217983e4a24329daa63704\",\"dweb:/ipfs/QmRmcwPxwec4Pg2skHJ2M6NYFVr9ZKqQwh9DZNokEz3kVV\"]},\"/Users/sophie/Zombies/contracts/ZombieFactory.sol\":{\"keccak256\":\"0x5ff09a1c01ec4c150bb5fbb2da923759268944f86e19e166363508114a495441\",\"urls\":[\"bzz-raw://395893462f89ddf2acba447177da19486427ebcde62ea0c0a74a65bc1cf0c82c\",\"dweb:/ipfs/QmbvZy2wjrCYCAUHVS4ksjNTzhabiBKpxtF56pymVNVu5b\"]},\"/Users/sophie/Zombies/contracts/ZombieFeeding.sol\":{\"keccak256\":\"0x895523267897174256f9478fe2b6895526077757fb3e33c3f696f319e79aea5b\",\"urls\":[\"bzz-raw://2539dda8688639cde223bb317ea878c03cd42cda96d7befec7c8232de2965ed9\",\"dweb:/ipfs/QmZsS9qMzz3qajDsuzVYWdz3wAmH48Mh3iRpHzRXs4Wz4E\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_id\",\"type\":\"uint256\"}],\"name\":\"getKitty\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"isGestating\",\"type\":\"bool\"},{\"internalType\":\"bool\",\"name\":\"isReady\",\"type\":\"bool\"},{\"internalType\":\"uint256\",\"name\":\"cooldownIndex\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"nextActionAt\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"siringWithId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"birthTime\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"matronId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"sireId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"generation\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"genes\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/sophie/cryptozombies/contracts/ZombieFeeding.sol\":\"KittyInterface\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/sophie/cryptozombies/contracts/Ownable.sol\":{\"keccak256\":\"0x39a90b70f159756acf792133e7b951103c76d5bfedaffc1fa5f2e014db68218d\",\"urls\":[\"bzz-raw://584e7d8f0f0d03a66c380723df79e0fdbbe0490997667054e88da192c0404ec7\",\"dweb:/ipfs/QmTPFHgVbW59FTohcWpeRWnBKePjxckAUat3SuVHq1HgBF\"]},\"/Users/sophie/cryptozombies/contracts/SafeMath.sol\":{\"keccak256\":\"0x334515ddc84f63faa20ad836ab68073ca36fb66a0061cf0bbf4d3e7c47280f07\",\"urls\":[\"bzz-raw://3063d3d9c329734753324599d303b7cf9c754176a8217983e4a24329daa63704\",\"dweb:/ipfs/QmRmcwPxwec4Pg2skHJ2M6NYFVr9ZKqQwh9DZNokEz3kVV\"]},\"/Users/sophie/cryptozombies/contracts/ZombieFactory.sol\":{\"keccak256\":\"0x79b75251d3608a1103fcf9c6e0498125d81d320fc57056fe0981163fd6b04422\",\"urls\":[\"bzz-raw://0da9d771f5d746a0e193b78c8978b558a2b738be5c23a64a4e6584180002edd4\",\"dweb:/ipfs/QmQB4LDC6QtNR6nPi7TebWUi1pa9YGR6VRUCXBksQrB7G4\"]},\"/Users/sophie/cryptozombies/contracts/ZombieFeeding.sol\":{\"keccak256\":\"0x895523267897174256f9478fe2b6895526077757fb3e33c3f696f319e79aea5b\",\"urls\":[\"bzz-raw://2539dda8688639cde223bb317ea878c03cd42cda96d7befec7c8232de2965ed9\",\"dweb:/ipfs/QmZsS9qMzz3qajDsuzVYWdz3wAmH48Mh3iRpHzRXs4Wz4E\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity ^0.5.0;\n\nimport \"./ZombieFactory.sol\";\n\ncontract KittyInterface {\n  function getKitty(uint256 _id) external view returns (\n    bool isGestating,\n    bool isReady,\n    uint256 cooldownIndex,\n    uint256 nextActionAt,\n    uint256 siringWithId,\n    uint256 birthTime,\n    uint256 matronId,\n    uint256 sireId,\n    uint256 generation,\n    uint256 genes\n  );\n}\n\ncontract ZombieFeeding is ZombieFactory {\n\n  KittyInterface kittyContract;\n\n  modifier onlyOwnerOf(uint _zombieId) {\n    require(msg.sender == zombieToOwner[_zombieId]);\n    _;\n  }\n\n  function setKittyContractAddress(address _address) external onlyOwner {\n    kittyContract = KittyInterface(_address);\n  }\n\n  function _triggerCooldown(Zombie storage _zombie) internal {\n    _zombie.readyTime = uint32(now + cooldownTime);\n  }\n\n  function _isReady(Zombie storage _zombie) internal view returns (bool) {\n      return (_zombie.readyTime <= now);\n  }\n\n  function feedAndMultiply(uint _zombieId, uint _targetDna, string memory _species) internal onlyOwnerOf(_zombieId) {\n    Zombie storage myZombie = zombies[_zombieId];\n    require(_isReady(myZombie));\n    _targetDna = _targetDna % dnaModulus;\n    uint newDna = (myZombie.dna + _targetDna) / 2;\n    if (keccak256(abi.encodePacked(_species)) == keccak256(abi.encodePacked(\"kitty\"))) {\n      newDna = newDna - newDna % 100 + 99;\n    }\n    _createZombie(\"NoName\", newDna);\n    _triggerCooldown(myZombie);\n  }\n\n  function feedOnKitty(uint _zombieId, uint _kittyId) public {\n    uint kittyDna;\n    (,,,,,,,,,kittyDna) = kittyContract.getKitty(_kittyId);\n    feedAndMultiply(_zombieId, kittyDna, \"kitty\");\n  }\n}",
-  "sourcePath": "/Users/sophie/Zombies/contracts/ZombieFeeding.sol",
+  "sourcePath": "/Users/sophie/cryptozombies/contracts/ZombieFeeding.sol",
   "ast": {
-    "absolutePath": "/Users/sophie/Zombies/contracts/ZombieFeeding.sol",
+    "absolutePath": "/Users/sophie/cryptozombies/contracts/ZombieFeeding.sol",
     "exportedSymbols": {
       "KittyInterface": [
         840
@@ -100,7 +100,7 @@
         "src": "0:23:6"
       },
       {
-        "absolutePath": "/Users/sophie/Zombies/contracts/ZombieFactory.sol",
+        "absolutePath": "/Users/sophie/cryptozombies/contracts/ZombieFactory.sol",
         "file": "./ZombieFactory.sol",
         "id": 814,
         "nodeType": "ImportDirective",
@@ -536,7 +536,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1351,
+                            "referencedDeclaration": 1364,
                             "src": "502:3:6",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -617,10 +617,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1354,
-                        1355
+                        1367,
+                        1368
                       ],
-                      "referencedDeclaration": 1354,
+                      "referencedDeclaration": 1367,
                       "src": "494:7:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -920,7 +920,7 @@
                             "name": "now",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1353,
+                            "referencedDeclaration": 1366,
                             "src": "774:3:6",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -1107,7 +1107,7 @@
                           "name": "now",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1353,
+                          "referencedDeclaration": 1366,
                           "src": "910:3:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -1371,10 +1371,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1354,
-                        1355
+                        1367,
+                        1368
                       ],
-                      "referencedDeclaration": 1354,
+                      "referencedDeclaration": 1367,
                       "src": "1093:7:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1673,7 +1673,7 @@
                               "name": "abi",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1338,
+                              "referencedDeclaration": 1351,
                               "src": "1233:3:6",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_abi",
@@ -1720,7 +1720,7 @@
                         "name": "keccak256",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1345,
+                        "referencedDeclaration": 1358,
                         "src": "1223:9:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
@@ -1781,7 +1781,7 @@
                               "name": "abi",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1338,
+                              "referencedDeclaration": 1351,
                               "src": "1274:3:6",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_abi",
@@ -1828,7 +1828,7 @@
                         "name": "keccak256",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1345,
+                        "referencedDeclaration": 1358,
                         "src": "1264:9:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
@@ -2637,7 +2637,7 @@
     "src": "0:1625:6"
   },
   "legacyAST": {
-    "absolutePath": "/Users/sophie/Zombies/contracts/ZombieFeeding.sol",
+    "absolutePath": "/Users/sophie/cryptozombies/contracts/ZombieFeeding.sol",
     "exportedSymbols": {
       "KittyInterface": [
         840
@@ -2661,7 +2661,7 @@
         "src": "0:23:6"
       },
       {
-        "absolutePath": "/Users/sophie/Zombies/contracts/ZombieFactory.sol",
+        "absolutePath": "/Users/sophie/cryptozombies/contracts/ZombieFactory.sol",
         "file": "./ZombieFactory.sol",
         "id": 814,
         "nodeType": "ImportDirective",
@@ -3097,7 +3097,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1351,
+                            "referencedDeclaration": 1364,
                             "src": "502:3:6",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -3178,10 +3178,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1354,
-                        1355
+                        1367,
+                        1368
                       ],
-                      "referencedDeclaration": 1354,
+                      "referencedDeclaration": 1367,
                       "src": "494:7:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -3481,7 +3481,7 @@
                             "name": "now",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1353,
+                            "referencedDeclaration": 1366,
                             "src": "774:3:6",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -3668,7 +3668,7 @@
                           "name": "now",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1353,
+                          "referencedDeclaration": 1366,
                           "src": "910:3:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -3932,10 +3932,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1354,
-                        1355
+                        1367,
+                        1368
                       ],
-                      "referencedDeclaration": 1354,
+                      "referencedDeclaration": 1367,
                       "src": "1093:7:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -4234,7 +4234,7 @@
                               "name": "abi",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1338,
+                              "referencedDeclaration": 1351,
                               "src": "1233:3:6",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_abi",
@@ -4281,7 +4281,7 @@
                         "name": "keccak256",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1345,
+                        "referencedDeclaration": 1358,
                         "src": "1223:9:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
@@ -4342,7 +4342,7 @@
                               "name": "abi",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1338,
+                              "referencedDeclaration": 1351,
                               "src": "1274:3:6",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_abi",
@@ -4389,7 +4389,7 @@
                         "name": "keccak256",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1345,
+                        "referencedDeclaration": 1358,
                         "src": "1264:9:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
@@ -5203,7 +5203,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.23",
-  "updatedAt": "2020-02-24T07:19:31.355Z",
+  "updatedAt": "2020-02-26T07:32:09.723Z",
   "devdoc": {
     "methods": {}
   },
